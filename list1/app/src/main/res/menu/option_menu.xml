@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/baseline_more_vert_24"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_profil"
+                android:title="Profil"/>
+            <item
+                android:id="@+id/menu_help"
+                android:title="Help"/>
+            <item
+                android:id="@+id/menu_keluar"
+                android:title="exit"/>
+        </menu>
+
+        </item>
+
+</menu>
